@@ -1,5 +1,5 @@
 'use strict';
-const squareDigits = num => num.toString().split('').map((e) => e * e).join('');
+const squareDigits = num => parseInt(num.toString().split('').map((e) => e * e).join('')); //string => num
 
 console.log(squareDigits(322));
 
