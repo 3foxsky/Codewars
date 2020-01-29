@@ -1,8 +1,8 @@
 'use strict';
 // Binary array to number
 const binaryArrayToNumber = arr => {
-  let binary = arr.toString().replace(/,/g,'');
-  return  parseInt(binary, 2)
+  let binary = arr.toString().replace(/,/g, '');
+  return parseInt(binary, 2)
 };
 // Tests
 /*
