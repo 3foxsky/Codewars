@@ -1,7 +1,10 @@
 'use strict';
 // Disemvowel trolls
 const disemvowel = str => str.replace(/[aeiou]/gi, ''); // gi => i = (ignores case of [a-zA-Z])
+<<<<<<< HEAD
 
+=======
+>>>>>>> init
 let str = "This website is for losers LOL!";
 
 console.log(disemvowel(str));

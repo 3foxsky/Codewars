@@ -1,7 +1,7 @@
 'use strict';
-const square = num => Math.pow(num, 2);
+const squareDigits = num => parseInt(num.toString().split('').map((e) => e * e).join(''));
 
-console.log(square(4));
+console.log(squareDigits(9414));
 
 // Tests
 // Test.assertEquals(squareDigits(9119), 811181);
